@@ -1,0 +1,190 @@
+/* big tablets to 1200px(width smaller than the 1140px row*/
+@media only screen and (max-width:1200px){
+    .parent-container {
+        top: 50px;
+        left: 7px;
+        display: block;
+        position: absolute;
+    }  
+    .header-items ul {
+        display: none;
+        margin-left: 20px;
+    } 
+    .header-container {
+        flex-direction: column;
+    }
+    .firstpart-image {
+        background-image: url(../images/mobile-image-hero-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105.8%;
+        right: 10px;
+        top: -27px;
+    }
+    .secondpart-image {
+        background-image: url(../images/mobile-image-hero-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105.8%;
+        right: 10px;
+        top: -27px;
+    }
+    .thirdpart-image {
+        background-image: url(../images/mobile-image-hero-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105.8%;
+        right: 10px;
+        top: -27px;
+    }
+    .buttons {
+        top: 380px;
+        left: 106px;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+    }
+    .header-items ul li {
+        background-color: #fff;
+        color: #000;
+        right: 28px;
+        top: -26px;
+        display: flex;
+        height: 76px;
+        align-items: center;
+        font-weight: bolder;
+        padding: 0px 0px 0px 27px;
+    }
+    .logo-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-image img{
+        margin-left: 0px;
+    }
+    .header-items{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .header-secondpart {
+        padding: 25px 34px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header-secondpart h2 {
+        font-size: 23px;
+    }
+    .shop img {
+        top: 26px;
+    }
+    .shop{
+        justify-content: center;
+    }
+    .first-section {
+        flex-direction: column;
+        top: 78%;
+    }
+    .section-image img{
+        width: 105.3%;
+        position: relative;
+        display: flex;
+        right: 8px;
+    }
+}
+/*small tablets to big tablets: from 768px to 1023*/
+@media only screen and (max-width:1023px){
+    .parent-container {
+        top: 50px;
+        left: 7px;
+        display: block;
+        position: absolute;
+    }  
+    .header-items ul {
+        display: none;
+        margin-left: 20px;
+    } 
+    .header-container {
+        flex-direction: column;
+    }
+    .firstpart-image {
+        background-image: url(../images/mobile-image-hero-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105.8%;
+        right: 10px;
+        top: -27px;
+    }
+    .secondpart-image {
+        background-image: url(../images/mobile-image-hero-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105.8%;
+        right: 10px;
+        top: -27px;
+    }
+    .thirdpart-image {
+        background-image: url(../images/mobile-image-hero-3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105.8%;
+        right: 10px;
+        top: -27px;
+    }
+    .buttons {
+        top: 380px;
+        left: 106px;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+    }
+    .header-items ul li {
+        background-color: #fff;
+        color: #000;
+        right: 28px;
+        top: -26px;
+        display: flex;
+        height: 76px;
+        align-items: center;
+        font-weight: bolder;
+        padding: 0px 0px 0px 27px;
+    }
+    .logo-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-image img{
+        margin-left: 0px;
+    }
+    .header-items{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .header-secondpart {
+        padding: 25px 34px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header-secondpart h2 {
+        font-size: 23px;
+    }
+    .shop img {
+        top: 26px;
+    }
+    .shop{
+        justify-content: center;
+    }
+    .first-section {
+        flex-direction: column;
+        top: 78%;
+    }
+    .section-image img{
+        width: 105.3%;
+        position: relative;
+        display: flex;
+        right: 8px;
+    }
+}
